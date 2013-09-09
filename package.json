@@ -1,0 +1,26 @@
+{
+	"name": "graphdat-relay",
+	"version": "0.0.1",
+	"title": "Graphat Relay",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:alphashack/graphdat-relay.git"
+	},
+	"bugs": {
+		"url":"https://github.com/alphashack/graphdat/issues"
+	},
+	"description": "Hosts one or more Graphdat Plugins",
+	"keywords" : [
+		"graphdat",
+		"metrics",
+		"monitoring"
+	],
+	"homepage": "http://www.graphdat.com",
+	"main": "index.js",
+	"dependencies": {
+		"optimist": "0.6.0",
+		"underscore": "1.5.1",
+		"CBuffer" : "0.1.4"
+	},
+	"engine": "node >= 0.8.1"
+}
