@@ -18,9 +18,13 @@
 	"homepage": "http://www.graphdat.com",
 	"main": "index.js",
 	"dependencies": {
-		"optimist": "0.6.0",
-		"underscore": "1.5.1",
-		"CBuffer" : "0.1.4"
+		"adm-zip" : "0.4.3",
+		"async" : "0.2.9",
+		"CBuffer" : "0.1.4",
+		"optimist" : "0.6.0",
+		"request" : "2.27.0",
+		"underscore" : "1.5.1",
+		"walk" : "2.2.1"
 	},
 	"engine": "node >= 0.8.1"
 }

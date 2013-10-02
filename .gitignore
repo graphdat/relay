@@ -12,3 +12,9 @@ logs
 results
 
 npm-debug.log
+
+/config.json
+/plugins-archive/
+/plugins/
+/node_modules/
+/.jshintrc
