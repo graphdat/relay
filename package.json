@@ -1,11 +1,12 @@
 {
 	"name": "graphdat-relay",
-	"version": "0.0.1",
+	"version": "0.0.14",
 	"title": "Graphat Relay",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:alphashack/graphdat-relay.git"
 	},
+	"bin" : { "graphdat-relay" : "./bin/cli.js" },
 	"bugs": {
 		"url":"https://github.com/alphashack/graphdat/issues"
 	},
