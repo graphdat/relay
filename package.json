@@ -1,31 +1,39 @@
 {
-	"name": "graphdat-relay",
-	"version": "0.1.5",
-	"title": "Graphat Relay",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:alphashack/graphdat-relay.git"
-	},
-	"bin" : { "graphdat-relay" : "./bin/cli.js" },
-	"bugs": {
-		"url":"https://github.com/alphashack/graphdat/issues"
-	},
-	"description": "Hosts one or more Graphdat Plugins",
-	"keywords" : [
-		"graphdat",
-		"metrics",
-		"monitoring"
-	],
-	"homepage": "http://www.graphdat.com",
-	"main": "index.js",
-	"dependencies": {
-		"adm-zip" : "0.4.3",
-		"async" : "0.2.9",
-		"CBuffer" : "0.1.4",
-		"optimist" : "0.6.0",
-		"request" : "2.27.0",
-		"underscore" : "1.5.1",
-		"walk" : "2.2.1"
-	},
-	"engine": "node >= 0.8.1"
+  "name": "graphdat-relay",
+  "author": "Graphdat <support@graphdat.com>",
+  "license": "Apache v2",
+  "version": "0.1.5",
+  "private": false,
+  "title": "Graphat Relay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graphdat/relay"
+  },
+  "bin": {
+    "graphdat-relay": "./bin/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/graphdat/relay/issues"
+  },
+  "description": "Hosts one or more Graphdat Plugins",
+  "keywords": [
+    "graphdat",
+    "metrics",
+    "monitoring"
+  ],
+  "homepage": "http://www.graphdat.com",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "adm-zip": "0.4.3",
+    "async": "0.2.9",
+    "CBuffer": "0.1.4",
+    "daemon": "1.1.0",
+    "optimist": "0.6.0",
+    "request": "2.27.0",
+    "underscore": "1.5.1",
+    "walk": "2.2.1"
+  },
+  "engine": "node >= 0.8.1"
 }
