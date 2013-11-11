@@ -23,7 +23,7 @@
   ],
   "homepage": "http://www.graphdat.com",
   "scripts": {
-    "start": "node bin/cli.js"
+    "start": "node --expose-gc bin/cli.js"
   },
   "dependencies": {
     "adm-zip": "0.4.3",
