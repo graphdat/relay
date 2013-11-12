@@ -10,7 +10,7 @@
     "url": "https://github.com/graphdat/relay.git"
   },
   "bin": {
-    "graphdat-relay": "./bin/cli.js"
+    "graphdat-relay": "./bin/daemon.js"
   },
   "bugs": {
     "url": "https://github.com/graphdat/relay/issues"
@@ -29,7 +29,7 @@
     "adm-zip": "0.4.3",
     "async": "0.2.9",
     "CBuffer": "0.1.4",
-    "daemon": "1.1.0",
+    "daemonize.redux": "0.0.x",
     "optimist": "0.6.0",
     "request": "2.27.0",
     "underscore": "1.5.1",
