@@ -59,6 +59,6 @@
 				console.log("Daemon is not running.");
 			break;
 		default:
-			console.log("Usage: [start|stop|kill|restart|reload|status]");
+			console.log("Usage: [start|stop|restart|status]");
 	}
 })();
