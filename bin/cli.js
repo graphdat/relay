@@ -10,5 +10,5 @@
 		return;
 	}
 
-	require('../lib/relay.js');
+	require(require('path').resolve(__dirname, '..', 'lib', 'relay.js'));
 })();
