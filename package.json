@@ -2,7 +2,7 @@
   "name": "graphdat-relay",
   "author": "Graphdat <support@graphdat.com>",
   "license": "Apache v2",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "private": false,
   "title": "Graphat Relay",
   "repository": {
