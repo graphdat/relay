@@ -22,7 +22,7 @@
     "metrics",
     "monitoring"
   ],
-  "homepage": "http://www.graphdat.com",
+  "homepage": "http://free.boundary.com",
   "scripts": {
     "start": "node --expose-gc bin/cli.js"
   },
